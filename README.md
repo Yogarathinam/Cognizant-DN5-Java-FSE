@@ -25,8 +25,8 @@ The solutions are organized week-wise according to the recommended learning sequ
 
 ### Week 1: Core Java & Fundamentals
 - [x] **01. Design Patterns**: Singleton & Factory Method Implementation
-- [ ] **02. Data Structures**: Ecommerce Search & Financial Forecast Algorithms
-- [ ] **03. PL/SQL**: Control Structures & Stored Procedures
+- [x] **02. Data Structures**: Ecommerce Search & Financial Forecast Algorithms
+- [x] **03. PL/SQL**: Control Structures & Stored Procedures
 - [ ] **04. Testing**: JUnit 5 & Mockito Fundamentals
 - [ ] **05. Logging**: SLF4J & Logback Configuration
 
