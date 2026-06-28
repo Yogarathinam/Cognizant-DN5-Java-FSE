@@ -27,8 +27,8 @@ The solutions are organized week-wise according to the recommended learning sequ
 - [x] **01. Design Patterns**: Singleton & Factory Method Implementation
 - [x] **02. Data Structures**: Ecommerce Search & Financial Forecast Algorithms
 - [x] **03. PL/SQL**: Control Structures & Stored Procedures
-- [ ] **04. Testing**: JUnit 5 & Mockito Fundamentals
-- [ ] **05. Logging**: SLF4J & Logback Configuration
+- [x] **04. Testing**: JUnit 5 & Mockito Fundamentals
+- [x] **05. Logging**: SLF4J & Logback Configuration
 
 ### Week 2: Spring Core & Data Access
 - [ ] **06. Spring Core & Maven**: Basic Config, Dependency Injection, IoC Container
