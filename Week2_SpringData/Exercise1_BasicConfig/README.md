@@ -1,33 +1,21 @@
-# Exercise 1: Configuring a Basic Spring Application
+# Exercise 1: Basic Spring Setup
 
-**Theme:** XML-based configuration for a Library Management System
+Theme: Setting up a Library Management System using XML.
 
----
+## Key Concepts:
 
-## Key Concepts
+- IoC Container
+  We use `ClassPathXmlApplicationContext` to load up our configurations and manage our objects (beans).
 
-- **[IoC Container](ca://s?q=Explain_IoC_Container_in_Spring):**  
-  Spring’s `ClassPathXmlApplicationContext` is used to load bean definitions and manage object lifecycles.
+- Dependency Injection
+  Used "Setter Injection" inside `applicationContext.xml` to automatically plug the BookRepository into the BookService.
 
-- **[Dependency Injection](ca://s?q=Dependency_Injection_in_Spring):**  
-  Setter Injection is applied in `applicationContext.xml` to wire `BookRepository` into `BookService`.
+- Bean Configuration
+  Because we declare our beans in the XML file, Spring handles creating the objects for us. We don't have to write `new` anymore!
 
-- **[Bean Configuration](ca://s?q=Spring_Bean_XML_Configuration):**  
-  Beans are declared in XML, so Spring takes care of object creation instead of the developer writing `new` statements.
+## How the Flow Works:
+`applicationContext.xml` -> tells the IoC Container what to do -> Container builds `BookRepository` and `BookService` -> Container links them together.
 
----
-
-## Diagram Flow
-
-```mermaid
-flowchart TD
-    A[applicationContext.xml] --> B[IoC Container]
-    B --> C[BookRepository Bean]
-    B --> D[BookService Bean]
-    C --> D
-    
-In IntelliJ, mark src as Sources Root:
-Right‑click on the src folder → Mark Directory as → Sources Root
-
-In IntelliJ, mark resources as Resources Root:
-Right‑click on the resources folder → Mark Directory as → Resources Root
+## IntelliJ Setup Reminders:
+- Right-click the `src` folder -> Mark Directory as -> Sources Root
+- Right-click the `resources` folder -> Mark Directory as -> Resources Root
