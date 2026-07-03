@@ -1,0 +1,41 @@
+package com.cognizant.ormlearn;
+
+import com.cognizant.ormlearn.model.Employee;
+import com.cognizant.ormlearn.service.EmployeeService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import java.util.List;
+
+@SpringBootApplication
+public class OrmLearnApplication {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(OrmLearnApplication.class);
+    private static EmployeeService employeeService;
+
+    public static void main(String[] args) {
+        ApplicationContext context = SpringApplication.run(OrmLearnApplication.class, args);
+        employeeService = context.getBean(EmployeeService.class);
+        
+        LOGGER.info("Inside main");
+        
+        // 1. Log existing entries
+        printAllEmployees("Initial State");
+
+        // 2. Add a new employee using Spring Data JPA abstraction wrapper
+        Employee newEmp = new Employee("Alex Smith");
+        employeeService.addEmployee(newEmp);
+        LOGGER.info("Successfully persisted new employee via repository proxy abstraction layers.");
+
+        // 3. Verify entry inclusion
+        printAllEmployees("Post Insertion State");
+    }
+
+    private static void printAllEmployees(String phase) {
+        LOGGER.info("--- Fetching Employees ({}) ---", phase);
+        List<Employee> employees = employeeService.getAllEmployees();
+        LOGGER.debug("employees={}", employees);
+    }
+}
