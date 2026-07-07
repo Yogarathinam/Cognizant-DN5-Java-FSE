@@ -21,7 +21,7 @@ The solutions are organized week-wise according to the recommended learning sequ
 
 ## Execution Tracker
 
-> **Status**: Active | **Current Phase**: Week 2
+> **Status**: Active | **Current Phase**: Week 3
 
 ### Week 1: Core Java & Fundamentals
 - [x] **01. Design Patterns**: Singleton & Factory Method Implementation
@@ -32,7 +32,7 @@ The solutions are organized week-wise according to the recommended learning sequ
 
 ### Week 2: Spring Core & Data Access
 - [x] **06. Spring Core & Maven**: Basic Config, Dependency Injection, IoC Container
-- [ ] **07. Spring Data JPA**: Manage Country Service, Query Methods, OR Mapping, HQL
+- [x] **07. Spring Data JPA**: Manage Country Service, Query Methods, OR Mapping, HQL
 
 ### Week 3: Spring Boot & REST APIs
 - [ ] **08. Spring REST**: Hello World REST, Country Web Service, JWT Authentication
