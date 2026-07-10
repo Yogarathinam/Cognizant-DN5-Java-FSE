@@ -21,7 +21,7 @@ The solutions are organized week-wise according to the recommended learning sequ
 
 ## Execution Tracker
 
-> **Status**: Active | **Current Phase**: Week 3
+> **Status**: Active | **Current Phase**: Week 4
 
 ### Week 1: Core Java & Fundamentals
 - [x] **01. Design Patterns**: Singleton & Factory Method Implementation
@@ -35,7 +35,7 @@ The solutions are organized week-wise according to the recommended learning sequ
 - [x] **07. Spring Data JPA**: Manage Country Service, Query Methods, OR Mapping, HQL
 
 ### Week 3: Spring Boot & REST APIs
-- [ ] **08. Spring REST**: Hello World REST, Country Web Service, JWT Authentication
+- [x] **08. Spring REST**: Hello World REST, Country Web Service, JWT Authentication
 
 ### Week 4: Microservices architecture
 - [ ] **09. Microservices**: Eureka Discovery Server and Gateway
