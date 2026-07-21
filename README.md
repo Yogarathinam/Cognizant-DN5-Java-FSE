@@ -18,7 +18,7 @@ This repository contains solutions for the mandatory and additional hands-on exe
 The solutions are organized week-wise according to the recommended learning sequence provided by Cognizant.
 
 ---
-<<<<<<< HEAD
+
 
 ## Execution Tracker
 
@@ -27,8 +27,7 @@ The solutions are organized week-wise according to the recommended learning sequ
 =======
 # Cognizant Deep Skilling Progress Tracker (Java FSE + Angular Track)
   > **Status**: Active | **Current Phase**: Week 5
-        
->>>>>>> 0c78a62d2063be0e043ea515a4332de1a897494a
+      
 ### Week 1: Core Java & Fundamentals
 - [x] **01. Design Patterns**: Singleton & Factory Method Implementation
 - [x] **02. Data Structures**: Ecommerce Search & Financial Forecast Algorithms
@@ -48,8 +47,8 @@ The solutions are organized week-wise according to the recommended learning sequ
 - [x] **10. Microservices**: Decoupled Account & Loan standalone modules with explicit port overrides (8080 vs 8081)
         
 ### Week 5: Frontend Core & Build Automation
-- [ ] **11. Version Control**: Git Hands-On Labs 1 through 5 (Branch Isolation & Upstream Pushing)
-- [ ] **12. TypeScript Fundamentals**: Node.js Type Assertions, Interfaces, and Module compilation patterns
+- [x] **11. Version Control**: Git Hands-On Labs 1 through 5 (Branch Isolation & Upstream Pushing)
+- [x] **12. TypeScript Fundamentals**: Node.js Type Assertions, Interfaces, and Module compilation patterns
         
 ### Week 6: Angular Framework Architecture
 - [ ] **13. Angular Components**: Data Binding ({{}}, [], ()), Directives (*ngIf, *ngFor), and Custom Pipes
@@ -59,23 +58,6 @@ The solutions are organized week-wise according to the recommended learning sequ
 - [ ] **15. Http Client**: Connecting Angular Front-end Views to the Spring Boot REST Microservice APIs via RxJS Streams
 - [ ] **16. Security Binding**: Passing Bearer JWT Auth Tokens across Interceptor pipeline intercept gates""";
 
-<<<<<<< HEAD
-### Week 4: Microservices architecture
-- [ ] **09. Microservices**: Eureka Discovery Server and Gateway
-
-## Week 5: Frontend Core & Build Automation
-- [ ] **10. Version Control: Git Hands-On Labs 1 through 5 (Branch Management & Upstream Pushing)
-- [ ] 11. TypeScript Fundamentals: Node.js Type Assertions, Interfaces, and Module compilation patterns
-
-## Week 6: Angular Framework Architecture
-- [ ] 14. Angular Components: Data Binding (`{{}}`, `[]`, `()`), Directives (`*ngIf`, `*ngFor`), and Custom Pipes
-- [ ] 15. Angular State Management: Input/Output parameter synchronization and Reactive Forms Validation
-=======
->>>>>>> 0c78a62d2063be0e043ea515a4332de1a897494a
-
-## Week 7: Enterprise Integration & Capstone
-- [ ] 16. Http Client: Connecting Angular Front-end Views to the Spring Boot REST Microservice APIs via RxJS Streams
-- [ ] 17. Security Binding: Passing Bearer JWT Auth Tokens across Interceptor pipeline intercept gates
 ---
 
 ## Developer Profile
