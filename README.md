@@ -21,7 +21,7 @@ The solutions are organized week-wise according to the recommended learning sequ
 
 ## Execution Tracker
 
-> **Status**: Active | **Current Phase**: Week 4
+> **Status**: Active | **Current Phase**: Week 5
 
 ### Week 1: Core Java & Fundamentals
 - [x] **01. Design Patterns**: Singleton & Factory Method Implementation
@@ -40,16 +40,17 @@ The solutions are organized week-wise according to the recommended learning sequ
 ### Week 4: Microservices architecture
 - [ ] **09. Microservices**: Eureka Discovery Server and Gateway
 
-### Week 5: Frontend Basics
-- [ ] **10. React**: Hands-On Labs 1 through 5
+## Week 5: Frontend Core & Build Automation
+- [ ] **10. Version Control: Git Hands-On Labs 1 through 5 (Branch Management & Upstream Pushing)
+- [ ] 11. TypeScript Fundamentals: Node.js Type Assertions, Interfaces, and Module compilation patterns
 
-### Week 6: Frontend Advanced & Version Control
-- [ ] **11. React Advanced**: Hands-On Labs 6 through 17
-- [ ] **12. GIT**: Hands-On Labs 1 through 5
+## Week 6: Angular Framework Architecture
+- [ ] 14. Angular Components: Data Binding (`{{}}`, `[]`, `()`), Directives (`*ngIf`, `*ngFor`), and Custom Pipes
+- [ ] 15. Angular State Management: Input/Output parameter synchronization and Reactive Forms Validation
 
-### Week 7: Angular Development
-- [ ] **13. Angular**: Angular Hands-On implementations
-
+## Week 7: Enterprise Integration & Capstone
+- [ ] 16. Http Client: Connecting Angular Front-end Views to the Spring Boot REST Microservice APIs via RxJS Streams
+- [ ] 17. Security Binding: Passing Bearer JWT Auth Tokens across Interceptor pipeline intercept gates
 ---
 
 ## Developer Profile
